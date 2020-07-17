@@ -5,6 +5,156 @@
     <title>Template-lv1</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="master.css">
+    <style>
+      body{
+  font-family: fantasy;
+  height: 4000px;
+}
+.container{
+  width: 1170px;
+  margin: auto;
+}
+.clearfix{
+  clear: both;
+}
+
+/* start header*/
+
+
+.header .slider{
+  background-color: #fff;
+  height: 650px;
+}
+.header .navbar{
+  background-color: #252f31;
+  color: #fff;
+  overflow: hidden;
+  text-transform: uppercase;
+
+}
+.header .navbar h2{
+  float: left;
+}
+.header .navbar h2 span{
+  color: #2ecc71;
+}
+.header .navbar ul{
+  list-style: none;
+  padding-left: 0;
+  overflow: hidden;
+  float: right;
+}
+
+.header .navbar ul li{
+  float: left;
+  padding: 10px;
+}
+
+/*end header */
+
+
+
+/*start features*/
+
+.features{
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.features .feat{
+  float: left;
+  width: 33.33333%;
+  height: 150px;
+  background-color: #ddd;
+}
+.features .feat h2{
+  text-transform: uppercase;
+}
+
+
+/*end features*/
+
+/* start about me */
+
+.about-me{
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.about-me .image{
+  float: left;
+  width: 40%;
+}
+
+.about-me .image img{
+  width: 100%;
+}
+.about-me .info{
+  float: left;
+  width: 60%;
+}
+
+.about-me .info .hobbies{
+  margin: 20px;
+}
+
+.about-me .info .hobbies > div{
+  float: left;
+  width: 50%;
+  min-height: 100px;
+}
+
+
+
+/* end about me */
+
+
+
+
+/* start my skills */
+
+.my-skills{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+ .my-skills .skills, .my-skills .progress{
+   width: 50%;
+   float: left;
+ }
+
+/* end my skills */
+
+
+.resume {
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+background-color: #ddd;
+}
+
+
+
+
+/* start my education */
+
+.my-education{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+ .my-education .education, .my-education .progress{
+   width: 50%;
+   float: left;
+ }
+ .my-education .education{
+   margin-right: 20px;
+ }
+
+/* end my education */
+
+    </style>
   </head>
   <body>
 
